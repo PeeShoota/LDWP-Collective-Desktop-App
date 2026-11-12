@@ -12,6 +12,13 @@ A simple **WebView2**-based Windows app created in Visual Studio LTSC 18.11.
 
 No installation or building required.
 
+## Requirements
+
+- **Windows 10** or **Windows 11**
+- WebView2 Runtime (usually already installed on modern Windows systems)
+
+> **Note on Linux:** Linux support is untested and unlikely due to the WebView2 requirement.
+
 ## For Developers
 
 If you're working on a new version:
