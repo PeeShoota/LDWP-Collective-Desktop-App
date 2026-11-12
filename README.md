@@ -19,6 +19,9 @@ No installation or building required.
 
 > **Note on support for Other OS:** Linux and anything else e.g. macOS/FreeBSD support is untested and unlikely due to the WebView2 requirement.
 
+Example screenshot of the application
+<img width="1202" height="832" alt="image" src="https://github.com/user-attachments/assets/58618d1b-e073-4aa3-a4c0-c4e14c20f6d1" />
+
 ## For Developers
 
 If you're working on a new version:
