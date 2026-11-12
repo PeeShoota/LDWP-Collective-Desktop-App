@@ -8,7 +8,7 @@ A simple **WebView2**-based Windows app created in Visual Studio LTSC 18.11.
 
 1. Download the latest release zip
 2. Extract the zip anywhere
-3. Run the `.exe` file
+3. Run the `.exe` file (with the matching icon to what is shown at the very start of the README)
 
 No installation or building required.
 
