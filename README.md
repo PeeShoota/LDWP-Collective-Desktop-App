@@ -25,7 +25,7 @@ No installation or building required.
 The Desktop download page... In the desktop app:
 <img width="1202" height="832" alt="image" src="https://github.com/user-attachments/assets/58618d1b-e073-4aa3-a4c0-c4e14c20f6d1" />
 
-What downloading a package looks looks like
+What downloading a package looks looks like:
 <img width="2207" height="1024" alt="image" src="https://github.com/user-attachments/assets/41131e58-390d-4d28-b4a6-a3181cfc12d8" />
 
 
