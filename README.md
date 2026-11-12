@@ -4,9 +4,14 @@ The official desktop application for the **LDWP Collective** project.
 
 A simple **WebView2**-based Windows app created in Visual Studio LTSC 18.11.
 
-## Download & Run
+## Installation
 
-1. Download the latest release zip
+### Version 1.0.2 and newer
+1. Download the latest `LDWP-Collective-Desktop-App-Setup.exe`
+2. Run the installer and follow the steps
+
+### Older versions (Pre 1.0.2)
+1. Download the release zip
 2. Extract the zip anywhere and put the folder somewhere safe
 3. Run `LDWP Collective Desktop App.exe`
 
