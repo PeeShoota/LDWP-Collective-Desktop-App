@@ -7,10 +7,8 @@ A simple **WebView2**-based Windows app created in Visual Studio LTSC 18.11.
 ## Download & Run
 
 1. Download the latest release zip
-2. Extract the zip anywhere
-3. Run the `.exe` file (with the matching icon to what is shown at the very start of the README)
-
-No installation or building required.
+2. Extract the zip anywhere and put the folder somewhere safe
+3. Run `LDWP Collective Desktop App.exe`
 
 ## Prerequisites
 
