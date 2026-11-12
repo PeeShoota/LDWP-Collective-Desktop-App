@@ -19,7 +19,8 @@ No installation or building required.
 - **Microsoft.Web.WebView2** (version 1.0.3650.58 or compatible)
 
 > **Note on support for Other OS:** Linux and anything else e.g. macOS/FreeBSD support is untested and unlikely due to the WebView2 requirement.
-> **Windows Testing:** This app has only been built and tested on my daily driver which runs **Windows 10 IoT Enterprise LTSC 21H2**. It should still work on most other modern Windows versions if you have the dependencies needed, but that hasn't been verified.
+>
+>  **Note for Windows users:** This app has only been built and tested on my daily driver which runs **Windows 10 IoT Enterprise LTSC 21H2**. It should still work on most other modern Windows versions if you have the dependencies needed, but that hasn't been verified.
 
 The WebView2 Runtime is required at runtime. Most modern Windows installations already include it. If needed, it can be installed from Microsoft's official WebView2 page.
 
