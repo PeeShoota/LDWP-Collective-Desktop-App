@@ -30,11 +30,3 @@ The Desktop download page... In the desktop app:
 
 What downloading a package looks like:
 <img width="2207" height="1024" alt="image" src="https://github.com/user-attachments/assets/41131e58-390d-4d28-b4a6-a3181cfc12d8" />
-
-
-## For Developers
-
-If you're working on a new version:
-- Clone the repository
-- Open the solution in Visual Studio
-- Build and run
