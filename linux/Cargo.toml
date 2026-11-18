@@ -1,0 +1,17 @@
+[package]
+name = "ldwp-collective-desktop"
+version = "1.0.7"
+edition = "2024"
+description = "LDWP Collective for Desktop — Linux (GTK 4 / WebKitGTK) edition"
+license = "CC0-1.0"
+repository = "https://github.com/PeeShoota/LDWP-Collective-Desktop-App"
+publish = false
+
+[dependencies]
+gtk = { version = "0.11", package = "gtk4", features = ["v4_12"] }
+webkit6 = { version = "0.6", features = ["v2_48"] }
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true

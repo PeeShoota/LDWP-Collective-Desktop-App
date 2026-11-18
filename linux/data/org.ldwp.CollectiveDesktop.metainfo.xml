@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.ldwp.CollectiveDesktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>CC0-1.0</project_license>
+  <name>LDWP Collective</name>
+  <summary>The official desktop application for the LDWP Collective</summary>
+  <developer id="org.ldwp">
+    <name>LDWP Collective</name>
+  </developer>
+  <description>
+    <p>
+      LDWP Collective for Desktop opens the LDWP Collective website in its own
+      window, with persistent sign-in, a built-in download manager and
+      keyboard shortcuts.
+    </p>
+    <p>
+      This is the Linux edition, built with GTK 4 and WebKitGTK.
+    </p>
+  </description>
+  <launchable type="desktop-id">org.ldwp.CollectiveDesktop.desktop</launchable>
+  <url type="homepage">https://ldwp.org</url>
+  <url type="vcs-browser">https://github.com/PeeShoota/LDWP-Collective-Desktop-App</url>
+  <url type="bugtracker">https://github.com/PeeShoota/LDWP-Collective-Desktop-App/issues</url>
+  <content_rating type="oars-1.1"/>
+  <supports>
+    <internet>always</internet>
+  </supports>
+  <releases>
+    <release version="1.0.7" date="2026-11-18">
+      <description>
+        <p>First Linux release (GTK 4 / WebKitGTK, distributed as a Flatpak).</p>
+      </description>
+    </release>
+  </releases>
+</component>

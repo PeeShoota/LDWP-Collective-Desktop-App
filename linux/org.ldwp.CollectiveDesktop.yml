@@ -1,0 +1,50 @@
+id: org.ldwp.CollectiveDesktop
+runtime: org.gnome.Platform
+runtime-version: '51'
+sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+command: ldwp-collective-desktop
+
+finish-args:
+  # Display
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --share=ipc
+  - --device=dri
+  # The app is a window onto https://ldwp.org
+  - --share=network
+  # Audio/video playback on the website
+  - --socket=pulseaudio
+  # Downloads are saved to ~/Downloads (opened via the OpenURI portal)
+  - --filesystem=xdg-download
+
+build-options:
+  append-path: /usr/lib/sdk/rust-stable/bin
+  env:
+    CARGO_HOME: /run/build/ldwp-collective-desktop/cargo
+    CARGO_NET_OFFLINE: 'true'
+
+modules:
+  - name: ldwp-collective-desktop
+    buildsystem: simple
+    build-commands:
+      - cargo --offline build --release --locked
+      - install -Dm755 target/release/ldwp-collective-desktop -t /app/bin/
+      - install -Dm644 data/org.ldwp.CollectiveDesktop.desktop -t /app/share/applications/
+      - install -Dm644 data/org.ldwp.CollectiveDesktop.metainfo.xml -t /app/share/metainfo/
+      - |
+        for size in 128 256 512; do
+          install -Dm644 data/icons/org.ldwp.CollectiveDesktop-${size}.png \
+            /app/share/icons/hicolor/${size}x${size}/apps/org.ldwp.CollectiveDesktop.png
+        done
+    sources:
+      - type: dir
+        path: .
+        skip:
+          - target
+          - build-dir
+          - repo
+          - dist
+          - .flatpak-builder
+      - cargo-sources.json
