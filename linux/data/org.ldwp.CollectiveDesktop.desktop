@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=LDWP Collective
+GenericName=LDWP Collective for Desktop
+Comment=The official desktop application for the LDWP Collective
+Exec=ldwp-collective-desktop
+Icon=org.ldwp.CollectiveDesktop
+Terminal=false
+Categories=Network;
+Keywords=LDWP;Collective;
+StartupNotify=true
+StartupWMClass=org.ldwp.CollectiveDesktop
+SingleMainWindow=true
